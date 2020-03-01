@@ -1,0 +1,184 @@
+body {
+  padding: 0;
+  margin: 0;
+  /*background: #f2f6e9;*/
+}
+
+/*/*--- navigation bar ---*/
+
+.mar {
+
+	background: #ffc107;	/*yellow*/
+
+	}
+
+.navbar {
+	background: #006397;
+  
+}
+
+.navbar-brand {
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+
+/*.nav-item {
+	padding: 0px 0px;
+	margin: 0px 0px;
+	
+}*/
+
+.nav-item:hover {
+	
+	/*background-color: #0074b3;*/
+	background-color: rgba(0, 116, 179,0.6);
+	transition: 0.4s ease
+	/*color: yellow;*/
+	/*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
+
+
+}
+
+.navbar .nav-item a{
+    color: #FFF !important;
+    transition: 0.6s ease
+}
+
+
+
+
+.navbar .dropdown-menu{
+    background-color: rgba(0, 99, 151,0.6);
+
+}
+
+.dropdown-item:hover{
+    background-color: rgba(0, 99, 151,0.7);
+}
+
+
+/*.dropdown-menu {
+	background:#00BFFF;
+}*/
+
+
+
+
+/*---*/
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  transition: 0.6s ease;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+/*-----*/
+
+/* Style the footer */
+footer {
+  /*background-color: #777;*/
+  background-color: #006397;
+  color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+
+/*----*/
+
+
+
+
+/*.carousel-caption {
+  position: absolute;
+  bottom: 1;
+  background: rgb(0, 0, 0);*/ /* Fallback color */
+  /*background: rgba(0, 0, 0, 0.4);  Black background with 0.5 opacity 
+  color: #f1f1f1;*/
+  /*width: 100%;*/
+  /*text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;*/
+  /*text-shadow: 2px 2px 4px #000000;
+  padding: 20px;
+}*/
+
+
+/*---*/
+
+.vl {
+  border-left: 1px solid white;
+  height: 125px;
+  position: absolute;
+  left: 100%;
+  margin-left: -3px;
+  top: 0;
+}
+
+
